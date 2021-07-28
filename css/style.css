@@ -198,7 +198,12 @@ body{
     display: flex;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 30px;
+    transition: all ease-in-out 1s;
 
+}
+.section-3 .parent-3:hover{
+    background:blue;
+    color: white;
 }
 .section-3 .parent-3 .part-1{
    padding: 40px 0 40px 150px;
@@ -215,5 +220,6 @@ body{
     background-color: black;
     text-align: center;
     color: blanchedalmond;
+    margin-bottom: 20px;
     
 }
