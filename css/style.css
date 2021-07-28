@@ -8,15 +8,16 @@ body{
     width: 50%;
     
 }
-.half-width img{
+.section-1 .half-width img{
     width: 75%;
     margin-top: 90px;
     margin-left: 30px;    
 }
 .section-1{
     display: flex;
+    margin-bottom: 150px;
 }
-.half-width h1{
+.section-1 .half-width h1{
     font-size: 50px;
     margin-left: 100px;
     margin-top: 260px;
@@ -26,7 +27,7 @@ body{
 .orange-color{
     color: orange;
 }
-.half-width p{
+.section-1 .half-width p{
     color: #828282;
     font-style: normal;
     font-weight: 500;
@@ -35,7 +36,7 @@ body{
     margin-left: 100px;
     margin-bottom: 55px;
 }
-.half-width .button{
+.section-1 .half-width .button{
     color: white;
     text-decoration: none;
     background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
@@ -45,6 +46,48 @@ body{
     font-weight: 700;
     margin-left: 100px;
 }
-.half-width img{
+.section-2{
+    display: flex;
+    height: 700px;
+    background-image: url('../images/shapes/7.png');
+    background-repeat: no-repeat;
+   background-position: right;
+}
+
+.section-2 .half-width img{
+    width: 50%;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 200px;
     
+
+}
+
+.section-2 .half-width h3{
+    margin-left: 20px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+.section-2 .half-width p{
+    margin-left: 20px;
+    text-align: left;
+    color: #828282;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 80px;
+}
+.section-2 .half-width .button{
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+    border-radius: 100px;
+    padding: 20px 32px;
+    font-weight: 700;
+    margin-left: 20px;
+
 }
